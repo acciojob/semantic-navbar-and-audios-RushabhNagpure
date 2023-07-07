@@ -1,2 +1,28 @@
 
 /* Your CSS Code here. */
+*{
+	margin:0px;
+	padding:0px;
+/* 	background-color:#ccc; */
+}
+ul{
+	background-color:black;
+    list-style-type:none;
+	overflow:hidden;
+/* 	position:fixed; */
+	
+}
+li{
+	float:left;
+}
+ li a {
+	 display:block;
+	 color:white;
+	 text-align:center;
+	 margin:inline;
+	 padding: 16px 20px;
+	 work-break:keep-all;
+}
+  a:hover{
+	  background-color:#333
+  }
